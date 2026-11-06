@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --color-brand: #C62828;
+  --color-brand-dark: #2B1114;
+  --color-brand-soft: #FDECEC;
+  --color-ink: #14181F;
+  --color-muted: #5B6472;
+  --color-line: #E3E8ED;
+  --color-surface: #F4F6F8;
+}
+
+body { background: var(--color-surface); color: var(--color-ink); margin: 0; }
